@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">CameraSensors by Steren Giannini</string>
+    
+    <string name="record">Record</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+    <string name="send">Send</string>
+
+    <string name="email_subject">Android CamSensors</string>
+    <string name="email_body">Load this file with the Blender script.</string>
+
+    <string name="app_name">CameraSensors</string>
+</resources>

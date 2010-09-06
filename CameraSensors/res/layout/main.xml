@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/hello" />
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	>
+
+    <Button android:id="@+id/button_record"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/record"
+            android:layout_weight="1" />
+
+    <Button android:id="@+id/button_pause"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/pause"
+            android:layout_weight="1" />
+            
+    <Button android:id="@+id/button_stop"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/stop"
+            android:layout_weight="1" />
+
+	</LinearLayout>            
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	>
+
+    <Button android:id="@+id/button_save"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/save"
+            android:layout_weight="1" />
+            
+	<Button android:id="@+id/button_send"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/send"
+            android:layout_weight="1" />
+
+	</LinearLayout>            
+    
+
+</LinearLayout>
